@@ -23,11 +23,12 @@
 }
 
 .left-part {
-  background-color: #2B656A;
+  background-color: #195159;
   height: auto;
   width: 46%;
   display: flex;
   align-items: center;
+  border-top-left-radius: 4px;
 }
 
 .left-part img {
@@ -43,7 +44,7 @@
 
 .right-part .triangle-img-container img {
   position: relative;
-  right: 45px;
-  height: 484.5px;
-  bottom: 4px;
+  right: 44px;
+  height: 482.5px;
+  bottom: 2px;
 }

@@ -2,7 +2,8 @@
 
 // Variables
 $main-bg: #6D9C99;
-$main-blue: #2B656A;
+// $main-blue: #2B656A;
+$main-blue: #195159;
 $main-yellow: #FEB933;
 
 *{
@@ -35,7 +36,7 @@ $main-yellow: #FEB933;
     width: 46%;
     display: flex;
     align-items: center;
-
+    border-top-left-radius: 4px;
     img{
         position: relative;
         right: 75px;
@@ -51,9 +52,12 @@ $main-yellow: #FEB933;
         img{
             position: relative;
             // right: 43px;
-            right: 45px;
-            height: 484.5px;
-            bottom: 4px;
+            // right: 45px;
+            // height: 484.5px;
+            // bottom: 4px;
+            right: 44px;
+            height: 482.5px;
+            bottom: 2px;
         }
     }
 }
