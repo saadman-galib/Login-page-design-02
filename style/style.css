@@ -11,9 +11,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #6D9C99;
 }
 
 .container {
-  width: 250px;
-  height: 150px;
+  width: 635px;
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+}
+
+.left-part {
+  background-color: #2B656A;
+  height: auto;
+  width: 46%;
+  display: flex;
+  align-items: center;
+}
+
+.left-part img {
+  position: relative;
+  right: 75px;
+}
+
+.right-part {
+  width: 50%;
+  background-color: #FEB933;
+  height: auto;
+}
+
+.right-part .triangle-img-container img {
+  position: relative;
+  right: 45px;
+  height: 484.5px;
+  bottom: 4px;
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+// Variables
+$main-bg: #6D9C99;
+$main-blue: #2B656A;
+$main-yellow: #FEB933;
+
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +17,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: $main-bg;
 }
 
 .container{
-    width: 250px;
-    height: 150px;
+    width: 635px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.left-part{
+    background-color: $main-blue;
+    height: auto;
+    // max-width: 40%;
+    width: 46%;
+    display: flex;
+    align-items: center;
+
+    img{
+        position: relative;
+        right: 75px;
+
+    }
+}
+.right-part{
+    width: 50%;
+    background-color: $main-yellow;
+    height: auto;
+
+    .triangle-img-container{
+        img{
+            position: relative;
+            // right: 43px;
+            right: 45px;
+            height: 484.5px;
+            bottom: 4px;
+        }
+    }
 }
