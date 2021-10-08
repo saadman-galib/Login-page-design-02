@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 // Variables
 $main-bg: #6D9C99;
 // $main-blue: #2B656A;
 $main-blue: #195159;
 $main-yellow: #FEB933;
+$main-white: #FFFFFF;
+// $-white: #FDFBF9;
+$focus-white: #FCFCFD;
+$normal-white: #F5F8F9;
+$main-grey: #E9E4D6;
+$secondary-yellow: #D8A13E;
+$hover-blue: #36898C;
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-container{
@@ -47,6 +60,8 @@ $main-yellow: #FEB933;
     width: 50%;
     background-color: $main-yellow;
     height: auto;
+    display: flex;
+    flex-direction: row;
 
     .triangle-img-container{
         img{
@@ -58,6 +73,19 @@ $main-yellow: #FEB933;
             right: 44px;
             height: 482.5px;
             bottom: 2px;
+        }
+    }
+}
+
+.form-container{
+    width: 50px;
+    // height
+
+    form{
+        .form-top-container{
+            display: flex;
+            flex-direction: row;
+            background-color: $main-white;
         }
     }
 }
