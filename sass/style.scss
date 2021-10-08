@@ -36,7 +36,8 @@ body{
 
 .container{
     // width: 793.75px;
-    width: 793.75px;
+    // width: 793.75px;
+    width: 870px;
     // height: 600px;
     height: 600px;
     display: flex;
@@ -48,7 +49,7 @@ body{
     background-color: $main-blue;
     height: auto;
     // max-width: 40%;
-    width: 46%;
+    width: 43%;
     display: flex;
     align-items: center;
     border-top-left-radius: 4px;
@@ -66,6 +67,8 @@ body{
     height: auto;
     display: flex;
     flex-direction: row;
+    // justify-content: center;
+    align-items: center;
 
     .triangle-img-container{
         img{
@@ -76,20 +79,26 @@ body{
             // bottom: 4px;
             right: 56px;
             height: 603.125px;
-            bottom: 2px;
+            bottom: -1px;
         }
     }
 }
 
 .form-container{
     // width: 50px;
-    // height
+    height: 170px;
+    background-color: $main-white;
+    position: relative;
+    right: 60px;
+    border-radius: 6px;
 
     form{
         .form-top-container{
             display: flex;
             flex-direction: row;
             background-color: $main-white;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
         }
     }
 }

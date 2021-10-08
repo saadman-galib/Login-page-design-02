@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 793.75px;
+  width: 870px;
   height: 600px;
   display: flex;
   flex-direction: row;
@@ -29,7 +29,7 @@ body {
 .left-part {
   background-color: #195159;
   height: auto;
-  width: 46%;
+  width: 43%;
   display: flex;
   align-items: center;
   border-top-left-radius: 4px;
@@ -48,19 +48,30 @@ body {
   height: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .right-part .triangle-img-container img {
   position: relative;
   right: 56px;
   height: 603.125px;
-  bottom: 2px;
+  bottom: -1px;
+}
+
+.form-container {
+  height: 170px;
+  background-color: #FFFFFF;
+  position: relative;
+  right: 60px;
+  border-radius: 6px;
 }
 
 .form-container form .form-top-container {
   display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 @media (max-width: 991px) {
