@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-  width: 635px;
-  height: 480px;
+  width: 793.75px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   border-radius: 4px;
@@ -37,7 +37,9 @@ body {
 
 .left-part img {
   position: relative;
-  right: 75px;
+  right: 97px;
+  width: 397.5px;
+  height: 421.25px;
 }
 
 .right-part {
@@ -50,17 +52,39 @@ body {
 
 .right-part .triangle-img-container img {
   position: relative;
-  right: 44px;
-  height: 482.5px;
+  right: 56px;
+  height: 603.125px;
   bottom: 2px;
-}
-
-.form-container {
-  width: 50px;
 }
 
 .form-container form .form-top-container {
   display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 817px;
+    height: 480px;
+    border-radius: 4px;
+    margin-right: 0;
+    margin: 3rem;
+  }
+  .left-part {
+    height: auto;
+    width: 46%;
+  }
+  .left-part img {
+    right: 75px;
+  }
+  .right-part {
+    width: 50%;
+    height: auto;
+  }
+  .right-part .triangle-img-container img {
+    right: 44px;
+    height: 482.5px;
+    bottom: 2px;
+  }
 }

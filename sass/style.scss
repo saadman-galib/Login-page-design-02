@@ -35,8 +35,10 @@ body{
 }
 
 .container{
-    width: 635px;
-    height: 480px;
+    // width: 793.75px;
+    width: 793.75px;
+    // height: 600px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     border-radius: 4px;
@@ -52,7 +54,9 @@ body{
     border-top-left-radius: 4px;
     img{
         position: relative;
-        right: 75px;
+        right: 97px;
+        width: 397.5px;
+        height: 421.25px;
 
     }
 }
@@ -70,15 +74,15 @@ body{
             // right: 45px;
             // height: 484.5px;
             // bottom: 4px;
-            right: 44px;
-            height: 482.5px;
+            right: 56px;
+            height: 603.125px;
             bottom: 2px;
         }
     }
 }
 
 .form-container{
-    width: 50px;
+    // width: 50px;
     // height
 
     form{
@@ -88,4 +92,70 @@ body{
             background-color: $main-white;
         }
     }
+}
+
+
+// Responsive Design
+@media (max-width: 991px){    
+    .container{
+        // width: 793.75px;
+        width: 817px;
+        // width: 635px;
+        // height: 600px;
+        height: 480px;
+        // display: flex;
+        // flex-direction: row;
+        border-radius: 4px;
+        margin-right: 0;
+        margin: 3rem;
+    }
+    
+    .left-part{
+        // background-color: $main-blue;
+        height: auto;
+        // max-width: 40%;
+        width: 46%;
+        // display: flex;
+        // align-items: center;
+        // border-top-left-radius: 4px;
+        img{
+            // position: relative;
+            right: 75px;
+    
+        }
+    }
+    .right-part{
+        width: 50%;
+        // background-color: $main-yellow;
+        height: auto;
+        // display: flex;
+        // flex-direction: row;
+    
+        .triangle-img-container{
+            img{
+                // position: relative;
+                // right: 43px;
+                // right: 45px;
+                // height: 484.5px;
+                // bottom: 4px;
+                right: 44px;
+                height: 482.5px;
+                bottom: 2px;
+            }
+        }
+    }
+    
+    // .form-container{
+        // width: 50px;
+        // height
+    
+        // form{
+            // .form-top-container{
+                // display: flex;
+                // flex-direction: row;
+                // background-color: $main-white;
+            // }
+        // }
+    // }   
+    
 }
