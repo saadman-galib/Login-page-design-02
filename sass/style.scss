@@ -91,6 +91,8 @@ body{
     position: relative;
     right: 60px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
 
     form{
         .form-top-container{
@@ -100,7 +102,13 @@ body{
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
         }
+
+        button{
+            display: block;
+        }
     }
+
+
 }
 
 
