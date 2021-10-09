@@ -11,6 +11,7 @@ $main-white: #FFFFFF;
 $focus-white: #FCFCFD;
 $normal-white: #F5F8F9;
 $main-grey: #E9E4D6;
+$secondary-grey: #E6E6E6;
 $secondary-yellow: #D8A13E;
 $hover-blue: #36898C;
 
@@ -101,7 +102,22 @@ body{
             background-color: $main-white;
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
+
+            h5{
+                color: $secondary-yellow;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: $secondary-grey;
+                font-size: 0.8rem;
+                // float: right;
+                // display: inline-block;
+                margin-left: auto;
+            }
         }
+
+
 
         button{
             display: block;

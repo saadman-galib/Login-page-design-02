@@ -76,6 +76,17 @@ body {
   border-top-right-radius: 6px;
 }
 
+.form-container form .form-top-container h5 {
+  color: #D8A13E;
+  text-transform: uppercase;
+}
+
+.form-container form .form-top-container p {
+  color: #E6E6E6;
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
 .form-container form button {
   display: block;
 }
