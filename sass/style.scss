@@ -102,10 +102,12 @@ body{
             background-color: $main-white;
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
+            padding: 15px;
 
             h5{
                 color: $secondary-yellow;
                 text-transform: uppercase;
+                letter-spacing: 4px;
             }
 
             p{
