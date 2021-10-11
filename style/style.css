@@ -59,7 +59,7 @@ body {
 }
 
 .form-container {
-  height: 170px;
+  min-height: 170px;
   background-color: #FFFFFF;
   position: relative;
   right: 60px;
@@ -84,6 +84,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 11.5px;
+  font-weight: 800;
 }
 
 .form-container form .form-top-container p {
@@ -95,10 +96,18 @@ body {
 
 .form-container form .form-items-container {
   padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container form .form-items-container .form-input:first-child {
+  margin-bottom: 7px;
 }
 
 .form-container form .form-input {
-  min-width: 320px;
+  min-width: 290px;
+  height: 32px;
 }
 
 .form-container form button {
