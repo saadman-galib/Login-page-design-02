@@ -60,7 +60,7 @@ body {
 }
 
 .form-container {
-  min-height: 170px;
+  max-height: 300px;
   background-color: #FFFFFF;
   position: relative;
   right: 60px;
@@ -69,6 +69,8 @@ body {
   flex-direction: column;
   max-width: 340px;
   min-width: 312px;
+  padding-bottom: 0;
+  box-shadow: 0 3px 21px 4px rgba(0, 0, 0, 0.2);
 }
 
 .form-container form .form-top-container {
@@ -126,18 +128,22 @@ body {
 }
 
 .form-container form .form-items-container .form-input:first-child {
-  margin-top: 0.7rem;
+  margin-top: 1rem;
   margin-bottom: 7px;
 }
 
 .form-container form .form-items-container .form-input:nth-child(2) {
-  margin-bottom: 27px;
+  margin-bottom: 35px;
+}
+
+.form-container form .form-items-container i {
+  position: relative;
 }
 
 .form-container form .form-items-container button {
   display: block;
   min-width: 270px;
-  height: 42px;
+  height: 50px;
   border-color: transparent;
   border-radius: 4px;
   background-color: #195159;
@@ -150,11 +156,17 @@ body {
 .form-container .form-bottom-container {
   text-align: center;
   position: relative;
-  top: 85px;
+  top: 60px;
+}
+
+.form-container .form-bottom-container p {
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .form-container .form-bottom-container p:nth-child(1) {
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .form-container .form-bottom-container p:nth-child(2) {

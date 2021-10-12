@@ -88,7 +88,7 @@ body{
 
 .form-container{
     // width: 50px;
-    min-height: 170px;
+    max-height: 300px;
     background-color: $main-white;
     position: relative;
     right: 60px;
@@ -97,6 +97,9 @@ body{
     flex-direction: column;
     max-width: 340px;
     min-width: 312px;
+    padding-bottom: 0;
+    box-shadow: 0 3px 21px 4px rgba(0, 0, 0, 0.2);
+
     
 
     form{
@@ -143,6 +146,11 @@ body{
                 outline: none;
                 padding: 3.5px 8px;
                 background-color: $third-grey;
+                font-family: 'Red Hat Display', sans-serif;
+                letter-spacing: 1px;
+                font-size: 14px;
+                font-weight: 600;
+
                 
             }
 
@@ -160,18 +168,26 @@ body{
             }
 
             .form-input:first-child{
-                margin-top: 0.7rem;
+                margin-top: 1rem;
                 margin-bottom: 7px;
             }
 
             .form-input:nth-child(2){
-                margin-bottom: 27px;
+                margin-bottom: 35px;
+            }
+
+            i{
+                // font-size: ;
+                // display: inline-block;
+                position: relative;
+                top: ;
+
             }
 
             button{
                 display: block;
                 min-width: 270px;
-                height: 42px;
+                height: 50px;
                 border-color: transparent;
                 border-radius: 4px;
                 background-color: $main-blue;
@@ -194,10 +210,16 @@ body{
         // display: flex;
         text-align: center;
         position: relative;
-        top: 85px;
+        top: 60px;
+
+        p{
+            font-size: 17px;
+            font-weight: 500;
+        }
 
         p:nth-child(1){
             color: $main-white;
+            margin-bottom: 10px;
         }
 
         p:nth-child(2){
