@@ -113,6 +113,10 @@ body {
   outline: none;
   padding: 3.5px 8px;
   background-color: #F1F1F1;
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .form-container form .form-items-container .form-input:focus {
@@ -132,12 +136,18 @@ body {
   margin-bottom: 7px;
 }
 
+.form-container form .form-items-container .second-input {
+  margin-bottom: 35px;
+  min-width: 270px;
+}
+
 .form-container form .form-items-container .form-input:nth-child(2) {
   margin-bottom: 35px;
 }
 
 .form-container form .form-items-container i {
   position: relative;
+  right: 55px;
 }
 
 .form-container form .form-items-container button {
