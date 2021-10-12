@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 340px;
+  min-width: 312px;
 }
 
 .form-container form .form-top-container {
@@ -101,17 +103,46 @@ body {
   align-items: center;
 }
 
+.form-container form .form-items-container .form-input {
+  min-width: 270px;
+  height: 42px;
+  border: 1.9px solid #E9E4D6;
+  border-radius: 4px;
+  outline: none;
+  padding: 3.5px 8px;
+}
+
+.form-container form .form-items-container .form-input:focus {
+  outline: none;
+}
+
+.form-container form .form-items-container .form-input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 1px;
+}
+
 .form-container form .form-items-container .form-input:first-child {
+  margin-top: 0.7rem;
   margin-bottom: 7px;
 }
 
-.form-container form .form-input {
-  min-width: 290px;
-  height: 32px;
+.form-container form .form-items-container .form-input:nth-child(2) {
+  margin-bottom: 38px;
 }
 
-.form-container form button {
+.form-container form .form-items-container button {
   display: block;
+  min-width: 270px;
+  height: 42px;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #195159;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 @media (max-width: 991px) {

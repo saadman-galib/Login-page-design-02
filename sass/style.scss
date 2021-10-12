@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
 
 // Variables
 $main-bg: #6D9C99;
@@ -94,6 +95,8 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 340px;
+    min-width: 312px;
+    
 
     form{
         // padding: 2rem;
@@ -131,20 +134,48 @@ body{
             flex-direction: column;
             align-items: center;
 
+            .form-input{
+                min-width: 270px;
+                height: 42px;
+                border: 1.9px solid $main-grey;
+                border-radius: 4px;
+                outline: none;
+                padding: 3.5px 8px;
+            }
+
+            .form-input:focus{
+                outline: none;
+            }
+            
+            .form-input::placeholder{
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'Red Hat Display', sans-serif;
+                letter-spacing: 1px;
+                // line-height: 19px;
+            }
+
             .form-input:first-child{
+                margin-top: 0.7rem;
                 margin-bottom: 7px;
             }
-        }
 
-
-        .form-input{
-            min-width: 290px;
-            height: 32px;
-        }
-
+            .form-input:nth-child(2){
+                margin-bottom: 38px;
+            }
 
         button{
             display: block;
+            min-width: 270px;
+            height: 42px;
+            border-color: transparent;
+            border-radius: 4px;
+            background-color: $main-blue;
+            color: $main-white;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
         }
     }
 
