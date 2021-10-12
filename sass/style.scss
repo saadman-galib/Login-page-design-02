@@ -142,10 +142,13 @@ body{
                 border-radius: 4px;
                 outline: none;
                 padding: 3.5px 8px;
+                background-color: $third-grey;
+                
             }
 
             .form-input:focus{
                 outline: none;
+                background-color: $main-white;
             }
             
             .form-input::placeholder{
@@ -165,25 +168,47 @@ body{
                 margin-bottom: 27px;
             }
 
-        button{
-            display: block;
-            min-width: 270px;
-            height: 42px;
-            border-color: transparent;
-            border-radius: 4px;
-            background-color: $main-blue;
-            color: $main-white;
-            font-size: 16px;
-            font-weight: 500;
+            button{
+                display: block;
+                min-width: 270px;
+                height: 42px;
+                border-color: transparent;
+                border-radius: 4px;
+                background-color: $main-blue;
+                color: $main-white;
+                font-size: 16px;
+                font-weight: 500;
 
-            text-transform: uppercase;
+                text-transform: uppercase;
+            }
         }
-        }
+
+
     }
 
     // .form-bottom-container{
         // padding: 
     // }
+
+    .form-bottom-container{
+        // display: flex;
+        text-align: center;
+        position: relative;
+        top: 85px;
+
+        p:nth-child(1){
+            color: $main-white;
+        }
+
+        p:nth-child(2){
+            color: $main-blue;
+        }
+
+        // p{
+            // display: block;
+        // }
+
+    }
 
 
 }

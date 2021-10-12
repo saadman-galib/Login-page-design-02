@@ -110,10 +110,12 @@ body {
   border-radius: 4px;
   outline: none;
   padding: 3.5px 8px;
+  background-color: #F1F1F1;
 }
 
 .form-container form .form-items-container .form-input:focus {
   outline: none;
+  background-color: #FFFFFF;
 }
 
 .form-container form .form-items-container .form-input::placeholder {
@@ -143,6 +145,20 @@ body {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.form-container .form-bottom-container {
+  text-align: center;
+  position: relative;
+  top: 85px;
+}
+
+.form-container .form-bottom-container p:nth-child(1) {
+  color: #FFFFFF;
+}
+
+.form-container .form-bottom-container p:nth-child(2) {
+  color: #195159;
 }
 
 @media (max-width: 991px) {
