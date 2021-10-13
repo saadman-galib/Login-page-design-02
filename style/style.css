@@ -214,8 +214,11 @@ body {
     height: auto;
   }
   .right-part .triangle-img-container img {
-    right: 44px;
-    height: 482.5px;
-    bottom: 2px;
+    right: 45px;
+    height: 484.5px;
+  }
+  .form-container {
+    right: 40px;
+    bottom: 35px;
   }
 }

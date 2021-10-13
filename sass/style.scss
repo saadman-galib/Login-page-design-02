@@ -34,6 +34,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: $main-bg;
+    // margin: auto;
 }
 
 .container{
@@ -45,6 +46,8 @@ body{
     display: flex;
     flex-direction: row;
     border-radius: 4px;
+    // margin-right: 450px;
+    // margin: auto;
 }
 
 .left-part{
@@ -302,9 +305,9 @@ body{
                 // right: 45px;
                 // height: 484.5px;
                 // bottom: 4px;
-                right: 44px;
-                height: 482.5px;
-                bottom: 2px;
+                right: 45px;
+                height: 484.5px;
+                // bottom: 2px;
             }
         }
     }
@@ -320,6 +323,11 @@ body{
                 // background-color: $main-white;
             // }
         // }
-    // }   
+    // }
+
+.form-container{
+    right: 40px;
+    bottom: 35px;
+}
     
 }
