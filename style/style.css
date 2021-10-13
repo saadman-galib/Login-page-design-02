@@ -149,9 +149,10 @@ body {
 
 .form-container form .form-items-container i {
   position: absolute;
-  transform: translateY(-6px);
-  right: 34px;
+  transform: translateY(-7px);
+  right: 32px;
   cursor: pointer;
+  color: #858585;
 }
 
 .form-container form .form-items-container button {
@@ -164,7 +165,13 @@ body {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in;
   text-transform: uppercase;
+}
+
+.form-container form .form-items-container button:hover {
+  opacity: 0.91;
 }
 
 .form-container .form-bottom-container {

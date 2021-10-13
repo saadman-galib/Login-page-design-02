@@ -194,9 +194,11 @@ body{
             //     // display: inline-block;
                 position: absolute;
                 // bottom: 0.1px;
-                transform: translateY(-6px);
-                right: 34px;
+                transform: translateY(-7px);
+                right: 32px;
                 cursor: pointer;
+                color: rgb(133, 133, 133);
+                // color: red
 
             }
 
@@ -210,8 +212,13 @@ body{
                 color: $main-white;
                 font-size: 16px;
                 font-weight: 500;
-
+                cursor: pointer;
+                transition: 0.3s ease-in;
                 text-transform: uppercase;
+            }
+
+            button:hover{
+                opacity: 0.91;
             }
         }
 
