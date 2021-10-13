@@ -131,23 +131,27 @@ body {
   letter-spacing: 1px;
 }
 
-.form-container form .form-items-container .form-input:first-child {
+.form-container form .form-items-container .first-input {
   margin-top: 1rem;
-  margin-bottom: 7px;
 }
 
 .form-container form .form-items-container .second-input {
-  margin-bottom: 35px;
-  min-width: 270px;
+  margin-top: 0.3rem;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-container form .form-items-container .form-input:nth-child(2) {
-  margin-bottom: 35px;
+  margin-top: 0.4rem !important;
 }
 
 .form-container form .form-items-container i {
-  position: relative;
-  right: 55px;
+  position: absolute;
+  transform: translateY(-6px);
+  right: 34px;
+  cursor: pointer;
 }
 
 .form-container form .form-items-container button {

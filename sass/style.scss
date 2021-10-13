@@ -167,26 +167,36 @@ body{
                 // line-height: 19px;
             }
 
-            .form-input:first-child{
+            .first-input{
                 margin-top: 1rem;
-                margin-bottom: 7px;
+                // margin-bottom: px;
             }
 
             .second-input{
-                margin-bottom: 35px;
-                min-width: 270px;
+                margin-top: 0.3rem;
+                margin-bottom: 20px;
+                // min-width: 270px;
+                // width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .form-input:nth-child(2){
-                margin-bottom: 35px;
+                // margin-bottom: 30px;
+                margin-top: 0.4rem !important;
+
             }
 
             i{
+                // display: none;
             //     // font-size: ;
             //     // display: inline-block;
-                position: relative;
-            //     bottom: 1px;
-                right: 55px;
+                position: absolute;
+                // bottom: 0.1px;
+                transform: translateY(-6px);
+                right: 34px;
+                cursor: pointer;
 
             }
 
