@@ -297,7 +297,7 @@ body {
   .right-part {
     width: 100%;
     border-radius: 4px;
-    min-height: 500px;
+    min-height: 580px;
   }
   .right-part .triangle-img-container img {
     display: none;
@@ -340,6 +340,9 @@ body {
     margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .form-container .form-bottom-container {
+    margin-top: 1.6rem;
   }
 }
 
