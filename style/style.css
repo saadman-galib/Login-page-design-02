@@ -249,8 +249,8 @@ body {
 @media (max-width: 830px) {
   .container {
     flex-direction: column;
-    width: 290px;
     min-height: 430px;
+    width: 350px;
   }
   .left-part {
     width: 100%;
@@ -292,7 +292,7 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    top: -140px;
+    top: -160px;
   }
   .right-part {
     width: 100%;
@@ -304,7 +304,7 @@ body {
   }
   .form-container {
     right: 0px;
-    min-width: 240px;
+    min-width: 280px;
     bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -326,10 +326,35 @@ body {
     width: 240px;
   }
   .form-container form .form-items-container .form-input {
+    min-width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-container form .form-items-container .second-input {
+    min-width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-container form .form-items-container button {
+    min-width: 255px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .form-container {
+    min-width: 240px;
+  }
+  .form-container form .form-items-container .form-input {
     min-width: 210px;
+  }
+  .form-container form .form-items-container .second-input {
+    margin-left: 0;
+    margin-right: 0;
   }
   .form-container form .form-items-container button {
     min-width: 210px;
-    margin-bottom: 8px;
   }
 }

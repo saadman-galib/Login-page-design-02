@@ -292,6 +292,8 @@ body{
         // width: 635px;
         // height: 600px;
         height: 480px;
+
+        // width: 900px;
         // display: flex;
         // flex-direction: row;
         border-radius: 4px;
@@ -374,8 +376,9 @@ body{
 
     .container{
         flex-direction: column;
-        width: 290px;
+        // width: 290px;
         min-height: 430px;
+        width: 350px;
 
     }
 
@@ -449,7 +452,7 @@ body{
         // margin-top: ;
         // top: 50px;
         // top: calc(height);
-        top: -140px;
+        top: -160px;
 
 
     }
@@ -472,7 +475,7 @@ body{
         // align-items: center;
         // justify-content: center;
         right: 0px;
-        min-width: 240px;
+        min-width: 280px;
         bottom: 0px;
         // min-height: 150px;
         margin-left: auto;
@@ -510,18 +513,51 @@ body{
                 width: 240px;
 
                 .form-input{
-                    min-width: 210px
+                    min-width: 255px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .second-input{
+                    min-width: 255px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
 
                 button{
-                    min-width: 210px;
+                    min-width: 255px;
                     margin-bottom: 8px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
 
-        .form-bottom-container{
+        // .form-bottom-container{
             // display: none;
+        // }
+    }
+}
+
+@media (max-width:380px) {
+    .form-container{
+        min-width: 240px;
+
+        form{
+            .form-items-container{
+                .form-input{
+                    min-width: 210px;
+                }
+
+                .second-input{
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                button{
+                    min-width: 210px;
+                }
+            }
         }
     }
 }
