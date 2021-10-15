@@ -250,7 +250,7 @@ body {
   .container {
     flex-direction: column;
     width: 290px;
-    min-height: 200px;
+    min-height: 430px;
   }
   .left-part {
     width: 100%;
@@ -286,14 +286,13 @@ body {
     background-color: #195159;
     border-radius: 50%;
     display: block;
-    position: absolute;
-    top: 0;
-    margin-top: 60px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
+    top: 50px;
   }
   .right-part {
     width: 100%;
