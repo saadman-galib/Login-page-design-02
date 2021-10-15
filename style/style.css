@@ -45,6 +45,10 @@ body {
   height: 421.25px;
 }
 
+.img-container img {
+  display: none;
+}
+
 .right-part {
   width: 100%;
   background-color: #FEB933;
@@ -239,9 +243,6 @@ body {
 }
 
 @media (max-width: 830px) {
-  .main-container {
-    height: 100%;
-  }
   .container {
     flex-direction: column;
     width: 290px;
@@ -250,6 +251,7 @@ body {
   .left-part {
     width: 100%;
     height: 46%;
+    background-color: transparent;
     display: none;
   }
   .left-part img {
@@ -258,18 +260,59 @@ body {
     right: 0;
     display: none;
   }
+  .img-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .img-container img {
+    display: block;
+    width: 115px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #195159;
+    border-radius: 50%;
+    top: 50px;
+  }
   .right-part {
     width: 100%;
-    height: 100%;
+    border-radius: 4px;
+    min-height: 400px;
   }
   .right-part .triangle-img-container img {
     display: none;
   }
+  .form-container {
+    right: 0px;
+    min-width: 240px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .form-container form .form-top-container {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+  }
+  .form-container form .form-top-container h5 {
+    font-size: 9px;
+  }
+  .form-container form .form-top-container p {
+    font-size: 0.7rem;
   }
   .form-container form .form-items-container {
-    display: none;
+    width: 240px;
+  }
+  .form-container form .form-items-container .form-input {
+    min-width: 210px;
+  }
+  .form-container form .form-items-container button {
+    min-width: 210px;
+    margin-bottom: 8px;
   }
   .form-container .form-bottom-container {
     display: none;
