@@ -287,8 +287,13 @@ body {
     border-radius: 50%;
     display: block;
     position: absolute;
-    top: 9%;
-    left: 41%;
+    top: 0;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   .right-part {
     width: 100%;
