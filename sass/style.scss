@@ -424,8 +424,9 @@ body{
         height: auto;
         background-color: $main-blue;
         border-radius: 50%;
-        display: block;
-        position: relative;
+        display: inline-block;
+        // position: relative;
+        position: absolute;
         // transform: translate(-50%, -50%);
         // top: 50px;
         // top: 65px;
@@ -446,7 +447,9 @@ body{
         // top: 8vh;
         // margin-top: auto;
         // margin-top: ;
-        top: 50px;
+        // top: 50px;
+        // top: calc(height);
+        top: -140px;
 
 
     }

@@ -285,14 +285,14 @@ body {
     height: auto;
     background-color: #195159;
     border-radius: 50%;
-    display: block;
-    position: relative;
+    display: inline-block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
-    top: 50px;
+    top: -140px;
   }
   .right-part {
     width: 100%;
