@@ -67,6 +67,10 @@ body {
   bottom: -1px;
 }
 
+.vector-img {
+  display: none;
+}
+
 .form-container {
   max-height: 300px;
   background-color: #FFFFFF;
@@ -95,7 +99,7 @@ body {
 .form-container form .form-top-container h5 {
   color: #D8A13E;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3.5px;
   font-size: 11.5px;
   font-weight: 800;
 }
@@ -262,7 +266,6 @@ body {
   }
   .img-container {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
   }
@@ -277,10 +280,20 @@ body {
     border-radius: 50%;
     top: 50px;
   }
+  .vector-img {
+    width: 115px;
+    height: auto;
+    background-color: #195159;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 9%;
+    left: 41%;
+  }
   .right-part {
     width: 100%;
     border-radius: 4px;
-    min-height: 400px;
+    min-height: 430px;
   }
   .right-part .triangle-img-container img {
     display: none;
@@ -299,7 +312,8 @@ body {
     padding: 15px;
   }
   .form-container form .form-top-container h5 {
-    font-size: 9px;
+    font-size: 10px;
+    letter-spacing: 2.5px;
   }
   .form-container form .form-top-container p {
     font-size: 0.7rem;
