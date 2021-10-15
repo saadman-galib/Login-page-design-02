@@ -292,7 +292,7 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    top: -160px;
+    top: -200px;
   }
   .right-part {
     width: 100%;
@@ -347,6 +347,12 @@ body {
 }
 
 @media (max-width: 380px) {
+  .main-container {
+    height: 135vh;
+  }
+  .container {
+    padding-bottom: 4rem;
+  }
   .form-container {
     min-width: 240px;
   }

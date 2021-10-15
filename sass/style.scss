@@ -452,7 +452,7 @@ body{
         // margin-top: ;
         // top: 50px;
         // top: calc(height);
-        top: -160px;
+        top: -200px;
 
 
     }
@@ -540,6 +540,14 @@ body{
 }
 
 @media (max-width:380px) {
+    .main-container{
+        height: 135vh;
+    }
+    .container{
+        // padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
     .form-container{
         min-width: 240px;
 
