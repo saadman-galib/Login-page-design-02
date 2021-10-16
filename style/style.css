@@ -349,7 +349,7 @@ body {
 
 @media (max-width: 380px) {
   .main-container {
-    height: 135vh;
+    height: 115vh;
   }
   .container {
     padding-bottom: 4rem;
