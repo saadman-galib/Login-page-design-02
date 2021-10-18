@@ -368,3 +368,21 @@ body {
     min-width: 210px;
   }
 }
+
+@media (max-height: 630px) {
+  .main-container {
+    height: 110vh;
+  }
+}
+
+@media (max-height: 570px) {
+  .main-container {
+    height: 135vh;
+  }
+}
+
+@media (max-height: 530px) {
+  .main-container {
+    height: 145vh;
+  }
+}
